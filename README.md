@@ -11,6 +11,10 @@ Out of scientific curiosity, the rows of the tabular data were transformed into 
 
 ## Repository Structure
 Within their nominative folders are the Python scripts for the helperfunctions, models etc. which are then executed within the BCW(Diagnostics).ipynb file. Note that some paths for the imports etc. might need to be adjusted to fit the new structure in git and that the (.ipynb)-file is downloaded and executed in Google-Colab, with the right file structure saved elsewhere.
+
+## Results
+
+
 ## Discussion
 While the primary aim of this project was achieved with train and test accuracies of around 96.5/99.5 for the best-performing model, a more streamlined approach using SVM, Decision Trees, and the sklearn library yielded similar results. ( https://www.kaggle.com/code/mragpavank/breast-cancer-wisconsin ). Strongly implying that not every classification problem needs an elaborate PyTorch Model to be solved. In fact, the best performing metrics to traintime ratio were achieved by variants of the Fully-Connected Network. Similar results were achieved by the C1NN at (96.2 / 99.76 ). Models, that were trained on the transformed dataset, completely flatlined or only gaining negligible amounts of performance gain after 5000 epochs. This indicates that 
 
