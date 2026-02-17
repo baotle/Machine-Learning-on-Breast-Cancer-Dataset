@@ -13,7 +13,7 @@ Out of scientific curiosity, the rows of the tabular data were transformed into 
 Within their nominative folders are the Python scripts for the helperfunctions, models etc. which are then executed within the BCW(Diagnostics).ipynb file. Note that some paths for the imports etc. might need to be adjusted to fit the new structure in git and that the (.ipynb)-file is downloaded and executed in Google-Colab, with the right file structure saved elsewhere.
 
 ## Results
-![Examplary result of the C1NN model]<src = "https://github.com/baotle/Machine-Learning-on-Breast-Cancer-Dataset/blob/main/figures/C1NNresults.pdf" width ="150" height="100">
+![Examplary result of the C1NN model]<img src = "https://github.com/baotle/Machine-Learning-on-Breast-Cancer-Dataset/blob/main/figures/C1NNresults.pdf" width ="150" height="100">
 ![Examplary result of the FCN model](https://github.com/baotle/Machine-Learning-on-Breast-Cancer-Dataset/blob/main/figures/FCNresults.pdf)
 ![Examplary result of the CNN model where matrix tranformation was applied](https://github.com/baotle/Machine-Learning-on-Breast-Cancer-Dataset/blob/main/figures/table2matrixCNN.pdf)
 
